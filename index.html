@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="stylesheets/default.css">
+	<link href='https://fonts.googleapis.com/css?family=Dosis:500' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<script type="text/javascript" src="javascript/text.js" >
+	</script>
+	<title>
+		Luis Fernando Plaz | My Page
+	</title>
+</head>
+
+<header>
+	<nav class="navigation-bar">
+		<a class="nav-options" href="#" onclick="change(this);">Home</a>
+		<a class="nav-options" href="#" onclick="change(this);">About</a>
+		<a class="nav-options no-border" href="#" onclick="change(this);">Curriculum</a>
+		<div class="float-right">
+			<a class="nav-options" href="#" onclick="change(this);">Projects</a>
+		</div>
+	</nav>
+</header>
+
+<body>
+	<div class="profile-image-container">
+		<img class="profile-image" src="https://avatars3.githubusercontent.com/u/13964864?v=3&s=460">
+	</div>
+	<h1	class="home-title">LUIS FERNANDO PLAZ | DEVELOPER & ENGINEER</h1>
+
+	<section class="info-container">
+		<p class="home-info" id="information-container">
+			<script type="text/javascript">
+				document.getElementById('information-container').innerHTML = home;
+			</script>
+		</p>
+	</section>
+
+	<footer>
+		<span> 
+			<a href="mailto:luisplaz@hotmail.com"><i class="fa fa-envelope logo-a fa-2x"></i></a>
+			<a href=""><i class="fa fa-facebook-official logo-a fa-2x"></i></a>
+			<a href=""><i class="fa fa-twitter logo-a fa-2x"></i></a>
+			<a href="https://github.com/luisplaz"><i class="fa fa-github logo-a fa-2x"></i></a>
+			<a href="https://www.linkedin.com/pub/luis-fernando-plaz/59/45a/42b"><i class="fa fa-linkedin logo-a fa-2x"></i></a>
+		</span>
+		<br>
+		<p class="home-footer"> &copy; Luis Fernando Plaz | 2015</p>
+	</footer>
+</body>
+</html>
