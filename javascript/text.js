@@ -40,7 +40,7 @@ I see myself in a position where I can have the liberty of pitching ideas and gi
 </p>\
 </div>"
 
-var curriculum = "<div>\
+var resume = "<div>\
 <ul>\
 <li class=curriculum-title>\
 PROFESSIONAL EXPERIENCE\
@@ -187,13 +187,10 @@ function change(link)
 		case "About":
 		document.getElementById('information-container').innerHTML = about;
 		break;
-		case "Curriculum":
-		document.getElementById('information-container').innerHTML = curriculum;
+		case "Resume":
+		document.getElementById('information-container').innerHTML = resume;
 		break;
 		case "Projects":
-		document.getElementById('information-container').innerHTML = projects;
-		break;
-		case " projects.":
 		document.getElementById('information-container').innerHTML = projects;
 		break;
 		default:
