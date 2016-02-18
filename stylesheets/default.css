@@ -14,7 +14,6 @@ html {
 	color: white;
 	background-color: #6ed3cf;
 	height: 52px;
-	display: block;
 	width: 100%;
 	position: fixed;
 	top: 0;
@@ -131,22 +130,22 @@ i.fa:hover {
 .curriculum-sub-title {
 	font-weight: bold;
 	color:#173e43;
-    display: table-caption;
-    width: 80rem;
+	display: table-caption;
+	width: 80rem;
 }
 
 .icon-horizontal {
-    width: 18rem;
-    height: 8rem;
+	width: 18rem;
+	height: 8rem;
 	padding:10px;
-	padding-left: 0;
+	margin-right: 42rem;
 }
 
 .icon-vertical {
-    width: 11rem;
-    height: 11rem;
+	width: 11rem;
+	height: 11rem;
 	padding:10px;
-	padding-left: 0;
+	margin-right: 42rem;
 }
 
 .resume-info {
@@ -168,6 +167,7 @@ i.fa:hover {
 	border: none;
 	float: none;
 	background-color: #e62739;
+	margin-bottom: 2rem
 }
 
 a:hover + .box,.box:hover {
@@ -221,8 +221,12 @@ body {
 /*________MOBILE STYLING__________________*/
 
 
-@media (max-width: 768px) {
+@media (max-width: 480px) {
 	/* For mobile phones: */
+
+	.nav-options {
+		font-size: 1.7rem;
+	}
 
 	.fa {
 		padding-right: 0.5rem;
@@ -233,7 +237,7 @@ body {
 	}
 
 	.home-title {
-		font-size: 1.7rem;
+		font-size: 1.5rem;
 	}
 
 	.welcome-title{
@@ -249,11 +253,12 @@ body {
 	}
 
 	.fa {
-	font-size: 2rem;
-}
+		font-size: 2rem;
+	}
 
 	ul{
 		padding-left: 2rem;
+		padding-right: 3rem;
 	}
 
 	li {
@@ -278,8 +283,8 @@ body {
 	}
 
 	.icon-horizontal {
-		width: 17rem;
-		height: 7rem;
+		width: 14rem;
+		height: 6rem;
 		padding:1rem;
 		margin-bottom: 1rem;
 		margin-right: 5rem;

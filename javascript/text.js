@@ -172,6 +172,11 @@ www.dconfianza.com\
 <div class=box>\
 <iframe src=http://www.dconfianza.com/>\
 </iframe>\
+</div>\
+<a class='nav-options projects-info' href=https://github.com/nyc-island-foxes-2016/motivator>\
+Motivator Application\
+</a>\
+</div>\
 </div>";
 
 
