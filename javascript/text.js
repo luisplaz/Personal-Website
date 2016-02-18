@@ -42,6 +42,49 @@ I see myself in a position where I can have the liberty of pitching ideas and gi
 
 var resume = "<div class=resume-info>\
 <ul>\
+	<li class=curriculum-title>\
+	TECHNICAL SKILLS\
+	</li>\
+		<ul>\
+			<li>\
+			Ruby\
+			</li>\
+			<li>\
+			Ruby On Rails\
+			</li>\
+			<li>\
+			Java\
+			</li>\
+			<li>\
+			Javascript\
+			</li>\
+			<li>\
+			HTML\
+			</li>\
+			<li>\
+			CSS\
+			</li>\
+			<li>\
+			Visual Basic\
+			</li>\
+			<li>\
+			Jquery\
+			</li>\
+			<li>\
+			PostgresSQL\
+			</li>\
+			<li>\
+			Microsoft Word\
+			</li>\
+			<li>\
+			Microsoft Excel\
+			</li>\
+			<li>\
+			Microsoft Powerpoint\
+			</li>\
+		</ul>\
+</ul>\
+<ul>\
 <li class=curriculum-title>\
 PROFESSIONAL EXPERIENCE\
 </li>\
@@ -110,7 +153,14 @@ EDUCATION\
 </li>\
 	<ul>\
 	<p class=curriculum-sub-title>\
-	<img src='imgs/Logo-Columbia.png' class='icon-horizontal'>\
+	<img src='imgs/Logo-Devbootcamp.png' class='icon-horizontal'>\
+	Devbootcamp, New York, NY\
+	</p>\
+	<li>\
+	19 week immersive bootcamp that teaches the fundamentals of Ruby, the Rails application framework, the ins and outs of JavaScript, plus HTML and CSS.\	</li>\
+	</li>\
+	<p class=curriculum-sub-title>\
+	<img src='imgs/Logo-Columbia.png' class='icon-horizontal-long'>\
 	COLUMBIA UNIVERSITY, Graduate Foundation’s Certificate 2015, New York, NY\
 	</p>\
 	<li>\
@@ -151,9 +201,6 @@ ADDITIONAL\n\
 	<br>\
 	<li>\
 	Languages: Spanish (Native tongue), English (Advanced And Fluent), Italian (Basic), French (Basic)\
-	</li>\
-	<li>\
-	Advanced computer software knowledge in: Word, Excel, PowerPoint, Visual Basic,Javascript,Html, Ruby On Ralis\
 	</li>\
 	<li>\
 	Volunteered at Voluntad Popular (political party led by Leopoldo Lopez, top contender for Hugo Chavez), led the mass fund recollection project “Ceibas;” conceptualized pyramid structure 1x10 that would optimize management of funds,2011\
