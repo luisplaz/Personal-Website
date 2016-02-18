@@ -58,6 +58,8 @@ a.nav-options:hover {
 	font-weight: bold;
 	width: 95%;
 	padding: 1rem;
+	border-top-right-radius: 1rem;
+	border-top-left-radius: 1rem;
 }
 
 .info-container {
@@ -135,7 +137,14 @@ i.fa:hover {
 }
 
 .icon-horizontal {
-	width: 18rem;
+	width: 15rem;
+	height: 8rem;
+	padding:10px;
+	margin-right: 100%;
+}
+
+.icon-horizontal-long {
+	width: 24rem;
 	height: 8rem;
 	padding:10px;
 	margin-right: 100%;
@@ -224,8 +233,12 @@ body {
 @media (max-width: 480px) {
 	/* For mobile phones: */
 
+	.navigation-bar {
+		height: 44px;
+	}
+
 	.nav-options {
-		font-size: 1.7rem;
+		font-size: 1.3rem;
 	}
 
 	.fa {
