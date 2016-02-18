@@ -40,7 +40,7 @@ I see myself in a position where I can have the liberty of pitching ideas and gi
 </p>\
 </div>"
 
-var resume = "<div>\
+var resume = "<div class=resume-info>\
 <ul>\
 <li class=curriculum-title>\
 PROFESSIONAL EXPERIENCE\
@@ -48,7 +48,7 @@ PROFESSIONAL EXPERIENCE\
 	<ul>\
 	<p class=curriculum-sub-title>\
 	<img src='imgs/Logo-Mega.gif' class='icon-horizontal'>\
-	MEGA (KOMATSU DISTRIBUTOR), Guarenas, Venezuela 2013-2015<br> Komtrax Fleet Monitoring Coordinator/IT Manager\
+	MEGA (KOMATSU DISTRIBUTOR), Guarenas, Venezuela 2013-2015<br><br> Komtrax Fleet Monitoring Coordinator/IT Manager\
 	</p>\
 	<li>\
 	Developed automatic fleet report system for construction and mining equipment, reducing time required for reporting data by 45%; implemented system health meter that reflected equipment functionality.\
@@ -67,7 +67,7 @@ PROFESSIONAL EXPERIENCE\
 	</li>\
 	<p class=curriculum-sub-title>\
 	<img src='imgs/Logo-Movistar.jpeg' class='icon-horizontal'>\
-	MOVISTAR VENEZUELA, Caracas, Venezuela 2012<br>Intern (Full-Time)\
+	MOVISTAR VENEZUELA, Caracas, Venezuela 2012<br><br>Intern (Full-Time)\
 	</p>\
 	<li>\
 	Optimized billing and recharge systems for the largest mobile phone service provider in Venezuela; teamed with programmers to developed new coding for digital account platform, modifying the visual and sensorial interaction of many of its transactions in order to provide a more attractive and efficient customer experience.\
@@ -80,7 +80,7 @@ PROFESSIONAL EXPERIENCE\
 	</li>\
 	<p class=curriculum-sub-title>\
 	<img src='imgs/Logo-Plumrose.png' class='icon-vertical'>\
-	PLUMROSE VENEZUELA (FOOD INDUSTRY), Caracas, Venezuela 2012<br>Intern (Part-Time)\
+	PLUMROSE VENEZUELA (FOOD INDUSTRY), Caracas, Venezuela 2012<br><br>Intern (Part-Time)\
 	</p>\
 	<li>\
 	Contributed to introduction and launch of all new frozen Plumrose products (Iceberg Project) including coding and registration processes; developed model to project distribution of all new frozen products, helping define launch goals.\
@@ -103,7 +103,6 @@ PROFESSIONAL EXPERIENCE\
 	</ul>\
 <br>\
 <div>\
-	_____________________________________________________________________________________________________________\
 </div>\
 <br>\
 <li class=curriculum-title>\
@@ -143,7 +142,6 @@ EDUCATION\
 	</ul>\
 <br>\
 <div>\
-	_____________________________________________________________________________________________________________\
 </div>\
 <br>\
 <li class=curriculum-title>\
