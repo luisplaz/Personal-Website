@@ -303,6 +303,12 @@ body {
 		margin-right: 5rem;
 	}
 
+	.icon-horizontal-long {
+		width: 18rem;
+		height: 7rem;
+		margin: 0;
+	}
+
 	.icon-vertical {
 		width: 9rem;
 		height: 9rem;
