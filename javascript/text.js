@@ -3,10 +3,10 @@ var home = "<div>\
 Welcome to my page\
 </h1>\
 <p class=welcome-info>\
-Here you will find all you might need to know about me as well as my portfolio of\
+Here you will find all you might need to know about me as well as my portfolio of \
 <a href='#' class='text-link' onclick='change(this);'>\
- projects.\
-</a>\
+projects\
+</a>.\
 <br>\
 You may also contact me through the link on the bottom of the page.<br>Hope to hear from you soon!\
 </p>\
@@ -86,7 +86,10 @@ PROFESSIONAL EXPERIENCE\
 	<ul>\
 	<p class=curriculum-sub-title>\
 	<img src='imgs/Logo-Mega.gif' class='icon-horizontal'>\
-	MEGA (KOMATSU DISTRIBUTOR), Guarenas, Venezuela 2013-2015<br><br> Komtrax Fleet Monitoring Coordinator/IT Manager\
+	<br>\
+	MEGA (KOMATSU DISTRIBUTOR)\
+	<br>\
+	Guarenas, Venezuela 2013-2015<br><br> Komtrax Fleet Monitoring Coordinator/IT Manager\
 	</p>\
 	<li>\
 	Developed automatic fleet report system for construction and mining equipment, reducing time required for reporting data by 45%; implemented system health meter that reflected equipment functionality.\
@@ -104,8 +107,11 @@ PROFESSIONAL EXPERIENCE\
 	Co-Led design and development of Mega’s own web and mobile monitoring platform with programming agency providing hands-on experience with programmers and programming languages.\
 	</li>\
 	<p class=curriculum-sub-title>\
-	<img src='imgs/Logo-Movistar.jpeg' class='icon-horizontal'>\
-	MOVISTAR VENEZUELA, Caracas, Venezuela 2012<br><br>Intern (Full-Time)\
+	<img src='imgs/Logo-Movistar.jpeg' class='icon-horizontal mov'>\
+	<br>\
+	MOVISTAR VENEZUELA\
+	<br>\
+	Caracas, Venezuela 2012<br><br>Intern (Full-Time)\
 	</p>\
 	<li>\
 	Optimized billing and recharge systems for the largest mobile phone service provider in Venezuela; teamed with programmers to developed new coding for digital account platform, modifying the visual and sensorial interaction of many of its transactions in order to provide a more attractive and efficient customer experience.\
@@ -118,7 +124,10 @@ PROFESSIONAL EXPERIENCE\
 	</li>\
 	<p class=curriculum-sub-title>\
 	<img src='imgs/Logo-Plumrose.png' class='icon-vertical'>\
-	PLUMROSE VENEZUELA (FOOD INDUSTRY), Caracas, Venezuela 2012<br><br>Intern (Part-Time)\
+	<br>\
+	PLUMROSE VENEZUELA (FOOD INDUSTRY)\
+	<br>\
+	Caracas, Venezuela 2012<br><br>Intern (Part-Time)\
 	</p>\
 	<li>\
 	Contributed to introduction and launch of all new frozen Plumrose products (Iceberg Project) including coding and registration processes; developed model to project distribution of all new frozen products, helping define launch goals.\
@@ -148,29 +157,49 @@ EDUCATION\
 </li>\
 	<ul>\
 	<p class=curriculum-sub-title>\
-	<img src='imgs/Logo-Devbootcamp.png' class='icon-horizontal'>\
-	Devbootcamp, New York, NY\
+	<img src='imgs/Logo-Devbootcamp.png' class='icon-horizontal dev'>\
+	<br>\
+	DEVBOOTCAMP\
+	<br>\
+	Web Development Bootcamp 2015-2016\
+	<br>\
+	New York, NY\
 	</p>\
 	<li>\
 	19 week immersive bootcamp that teaches the fundamentals of Ruby, the Rails application framework, the ins and outs of JavaScript, plus HTML and CSS.\	</li>\
 	</li>\
 	<p class=curriculum-sub-title>\
 	<img src='imgs/Logo-Columbia.png' class='icon-horizontal-long'>\
-	COLUMBIA UNIVERSITY, Graduate Foundation’s Certificate 2015, New York, NY\
+	<br>\
+	COLUMBIA UNIVERSITY\
+	<br>\
+	Graduate Foundation’s Certificate 2015\
+	<br>\
+	New York, NY\
 	</p>\
 	<li>\
 	Completed rigorous three-month session focused on computer science courses, learning basic Java programming, Data Structures, Statistics with calculus and social media networking for organizations.\
 	</li>\
 	<p class=curriculum-sub-title>\
 	<img src='imgs/Logo-Iesa.jpg' class='icon-vertical'>\
-	IESA, Masters in Finance 2013-2015, Caracas, Venezuela\
+	<br>\
+	INSTITUTO DE ESTUDIOS SUPERIORES EN ADMINISTRACIÓN (IESA)\
+	<br>\
+	Masters in Finance 2013-2015\
+	<br>\
+	Caracas, Venezuela\
 	</p>\
 	<li>\
 	Completed this top 6th finance graduate program in Latin America, as ranked by Eduniversal Best Masters.\
 	</li>\
 	<p class=curriculum-sub-title>\
 	<img src='imgs/Logo-Unimet.jpg' class='icon-horizontal'>\
-	UNIVERSIDAD METROPOLITANA, Bachelor of Science in Production Engineering 2007-2013, Caracas,Venezuela\
+	<br>\
+	UNIVERSIDAD METROPOLITANA\
+	<br>\
+	Bachelor of Science in Production Engineering 2007-2013\
+	<br>\
+	Caracas,Venezuela\
 	</p>\
 	<li>\
 	Led thesis project “Improvements in Self-Management Transactions for Mobile Phone Operator Movistar;” collaborated with coders to implement new and improved processes in the virtual platforms, enhancing productivity and user experience.\
@@ -224,7 +253,7 @@ Motivator Application\
 
 function change(link)
 {
-	var txt = link.text
+	var txt = link.text;
 	switch(txt) {
 		case "Home":
 		document.getElementById('information-container').innerHTML = home;
@@ -236,6 +265,7 @@ function change(link)
 		document.getElementById('information-container').innerHTML = resume;
 		break;
 		case "Projects":
+		case "projects":
 		document.getElementById('information-container').innerHTML = projects;
 		break;
 		default:
