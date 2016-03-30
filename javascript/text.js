@@ -244,8 +244,14 @@ www.dconfianza.com\
 <iframe src=http://www.dconfianza.com/>\
 </iframe>\
 </div>\
-<a class='nav-options projects-info' href=https://github.com/nyc-island-foxes-2016/motivator>\
+<div>\
+<a class='nav-options projects-info' href=https://protected-refuge-11475.herokuapp.com/>\
 Motivator Application\
+</a>\
+</div>\
+<div>\
+<a class='nav-options projects-info' href=https://rememberapp2016.herokuapp.com/>\
+Re-Member Application\
 </a>\
 </div>\
 </div>";
