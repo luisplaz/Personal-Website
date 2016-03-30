@@ -1,14 +1,3 @@
-var skype = '<script type="text/javascript" src="http://www.skypeassets.com/i/scom/js/skype-uri.js"></script>'+
-'<div id="SkypeButton_Call_luisplaz_1">'+
-' <script type="text/javascript">'+
-' Skype.ui({'+
-' "name": "dropdown",'+
-' "element": "SkypeButton_Call_luisplaz_1",'+
-' "participants": ["luisplaz"]'+
-' });'+
-' </script>'+
-'</div>';
-	
 var home = "<div>\
 <h1 class=welcome-title>\
 Welcome to my page\
@@ -20,7 +9,13 @@ Here you will find all you might need to know about me as well as my portfolio o
 </a>\
 <br>\
 You may also contact me through the link on the bottom of the page.<br>Hope to hear from you soon!\
-</p>"+ skype +"</div>"
+</p>\
+<span class='resume'>\
+<a class='resume_download' href='imgs/Resume.pdf' download>\
+Download Resume\
+</a>\
+</span>\
+</div>"
 
 var about = "<div>\
 <p>\

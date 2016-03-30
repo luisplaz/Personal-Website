@@ -83,6 +83,17 @@ a.nav-options:hover {
 	text-align: center;
 }
 
+.resume{
+	text-align: center
+}
+
+.resume_download{
+	text-decoration: none;
+	color:#e62739;
+	width: 100%;
+    display: inline-table;
+}
+
 /*________FOOTER INFORMATION STYLING__________________*/
 
 footer {
@@ -258,6 +269,10 @@ body {
 	}
 
 	.welcome-info{
+		font-size: 1.5rem
+	}
+
+	.resume_download{
 		font-size: 1.5rem
 	}
 
