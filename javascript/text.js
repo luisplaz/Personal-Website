@@ -40,7 +40,7 @@ var resume = "<div class=resume-info>\
 	<li class=curriculum-title>\
 	TECHNICAL SKILLS\
 	</li>\
-		<ul>\
+		<ul class='skills'>\
 			<li>\
 			Ruby\
 			</li>\
@@ -78,14 +78,12 @@ var resume = "<div class=resume-info>\
 			Microsoft Powerpoint\
 			</li>\
 		</ul>\
-</ul>\
-<ul>\
 <li class=curriculum-title>\
 PROFESSIONAL EXPERIENCE\
 </li>\
 	<ul>\
+	<img src='imgs/Mega.png' class='icon-horizontal'>\
 	<p class=curriculum-sub-title>\
-	<img src='imgs/Logo-Mega.gif' class='icon-horizontal'>\
 	<br>\
 	MEGA (KOMATSU DISTRIBUTOR)\
 	<br>\
@@ -106,8 +104,11 @@ PROFESSIONAL EXPERIENCE\
 	<li>\
 	Co-Led design and development of Mega’s own web and mobile monitoring platform with programming agency providing hands-on experience with programmers and programming languages.\
 	</li>\
+	<br>\
+	</ul>\
+	<ul>\
+	<img src='imgs/Movistar.png' class='icon-horizontal'>\
 	<p class=curriculum-sub-title>\
-	<img src='imgs/Logo-Movistar.jpeg' class='icon-horizontal mov'>\
 	<br>\
 	MOVISTAR VENEZUELA\
 	<br>\
@@ -122,8 +123,11 @@ PROFESSIONAL EXPERIENCE\
 	<li>\
 	Developed transaction manuals and routine follow-ups to ensure optimal system implementation achieving significant improvement in customer service; proposed optimization of multiple transactions available in virtual platform “Mi Movistar”.\
 	</li>\
+	<br>\
+	</ul>\
+	<ul>\
+	<img src='imgs/Plumrose.png' class='icon-vertical'>\
 	<p class=curriculum-sub-title>\
-	<img src='imgs/Logo-Plumrose.png' class='icon-vertical'>\
 	<br>\
 	PLUMROSE VENEZUELA (FOOD INDUSTRY)\
 	<br>\
@@ -138,6 +142,8 @@ PROFESSIONAL EXPERIENCE\
 	<li>\
 	Developed transaction manuals and routine follow-ups to ensure optimal system implementation achieving significant improvement in customer service; proposed optimization of multiple transactions available in virtual platform “Mi Movistar”.\
 	</li>\
+	</ul>\
+	<ul>\
 	<p class=curriculum-sub-title>\
 	OTHER PROFESSIONAL EXPERIENCE 2014-Present\
 	</p>\
@@ -156,8 +162,8 @@ PROFESSIONAL EXPERIENCE\
 EDUCATION\
 </li>\
 	<ul>\
+	<img src='imgs/Devbootcamp.png' class='icon-horizontal dev'>\
 	<p class=curriculum-sub-title>\
-	<img src='imgs/Logo-Devbootcamp.png' class='icon-horizontal dev'>\
 	<br>\
 	DEVBOOTCAMP\
 	<br>\
@@ -168,8 +174,11 @@ EDUCATION\
 	<li>\
 	19 week immersive bootcamp that teaches the fundamentals of Ruby, the Rails application framework, the ins and outs of JavaScript, plus HTML and CSS.\	</li>\
 	</li>\
+	<br>\
+	</ul>\
+	<ul>\
+	<img src='imgs/Columbia.png' class='icon-vertical'>\
 	<p class=curriculum-sub-title>\
-	<img src='imgs/Logo-Columbia.png' class='icon-horizontal-long'>\
 	<br>\
 	COLUMBIA UNIVERSITY\
 	<br>\
@@ -180,8 +189,11 @@ EDUCATION\
 	<li>\
 	Completed rigorous three-month session focused on computer science courses, learning basic Java programming, Data Structures, Statistics with calculus and social media networking for organizations.\
 	</li>\
+	<br>\
+	</ul>\
+	<ul>\
+	<img src='imgs/Iesa.png' class='icon-vertical'>\
 	<p class=curriculum-sub-title>\
-	<img src='imgs/Logo-Iesa.jpg' class='icon-vertical'>\
 	<br>\
 	INSTITUTO DE ESTUDIOS SUPERIORES EN ADMINISTRACIÓN (IESA)\
 	<br>\
@@ -192,8 +204,11 @@ EDUCATION\
 	<li>\
 	Completed this top 6th finance graduate program in Latin America, as ranked by Eduniversal Best Masters.\
 	</li>\
+	<br>\
+	</ul>\
+	<ul>\
+	<img src='imgs/Unimet.png' class='icon-horizontal'>\
 	<p class=curriculum-sub-title>\
-	<img src='imgs/Logo-Unimet.jpg' class='icon-horizontal'>\
 	<br>\
 	UNIVERSIDAD METROPOLITANA\
 	<br>\
@@ -204,6 +219,8 @@ EDUCATION\
 	<li>\
 	Led thesis project “Improvements in Self-Management Transactions for Mobile Phone Operator Movistar;” collaborated with coders to implement new and improved processes in the virtual platforms, enhancing productivity and user experience.\
 	</li>\
+	</ul>\
+	<ul>\
 	<p class=curriculum-sub-title>\
 	OTHER EDUCATION\
 	</p>\
@@ -241,7 +258,7 @@ var projects = "<div>\
 www.dconfianza.com\
 </a>\
 <div class=box>\
-<iframe src=http://www.dconfianza.com/>\
+<iframe src=>\
 </iframe>\
 </div>\
 <div>\
