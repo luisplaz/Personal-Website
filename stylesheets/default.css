@@ -177,7 +177,6 @@ p .curriculum-sub-title {
 .skills{
 	margin-bottom: 5%;
 }
-
 /*________PROJECTS PAGE STYLING__________________*/
 
 .box {
@@ -235,9 +234,34 @@ p {
 	font-size: 2rem;
 }
 
-/*body {
-	width: 100%
-	}*/
+
+.text-link{
+	text-decoration: none;
+	color: #e62739;
+}
+
+/*________MOBILE STYLING__________________*/
+
+
+@media (max-width: 480px) {
+	/* For mobile phones: */
+
+	.navigation-bar {
+		height: 44px;
+	}
+
+	.nav-options {
+		font-size: 1.3rem;
+		height: 4.6rem;
+	}
+
+	.fa {
+		padding-right: 0.5rem;
+	}
+
+	.profile-image{
+		height: 20rem;
+	}
 
 	.text-link{
 		text-decoration: none;
@@ -323,7 +347,7 @@ p {
 		}
 
 		ul li:last-of-type {
-  			margin-bottom: -3%;
+			margin-bottom: -3%;
 		}
 
 		.skills {
